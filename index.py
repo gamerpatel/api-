@@ -31,8 +31,8 @@ app = Flask(__name__)
 CORS(app)
 
 # === CONFIG FROM ENV ===
-EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS", "YOUR GMAIL ID")
-EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD", "16 DIGIT GMAIL APP PASSWORD")
+EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS", "vedp26663@gmail.com")
+EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD", "mdio equl bmhp dsnv")
 
 # === GLOBALS ===
 token_cache = {"tokens": [], "user_usage": {}}
